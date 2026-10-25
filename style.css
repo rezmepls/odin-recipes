@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+    background-color: lightslategrey;
+}
+
+div {
+    border: solid 1px red;
+    padding: 15px;
+}
+
+h1 {
+    color: antiquewhite;
+}
+
+.food-link a {
+    padding: 10px;
+}
+
