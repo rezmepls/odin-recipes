@@ -1,21 +1,66 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
     background-color: lightslategrey;
 }
 
-div {
-    border: solid 1px red;
-    padding: 15px;
-}
+
+
+/* --------------------------------------------- */
 
 h1 {
-    color: antiquewhite;
+    margin: 5px;
+    padding: 10px 0;
 }
 
+.nav-status {
+    border: solid 1px red;
+    text-align: right;
+    margin: 5px;
+    padding: 5px;
+}
+
+.nav {
+    border: solid 1px blue;
+    margin: 5px;
+    padding: 5px;
+}
+
+.food-link {
+    width: 200px;
+    border: solid red 1px;
+    margin: 5px;
+}
 .food-link a {
     padding: 10px;
+    display: block;
+    margin: 15px;
 }
 
+/* MENU LINKS */
+
+.voice-link {
+    background-color: lightcoral;
+}
+
+.sms-link {
+    background-color: lightyellow;
+}
+
+.payments-link {
+    background-color: lightgreen;
+}
+
+.management-link {
+    background-color: lightpink;
+}
+
+/* FOOTER */
+.footer {
+    margin: 5px;
+    border: solid green 1px;
+}
